@@ -30,5 +30,16 @@ ol {
 /* image1*/
 
 .img {
-    height: 500px;
+    height: 300px;
+    justify-content: flex-start;
+
+}
+
+/* dimensione scritte*/
+.Levi {
+    font-size: 100%;
+}
+
+.y {
+    font-size: 150%;
 }
