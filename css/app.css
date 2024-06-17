@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* LAYOUT*/
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* intestazione*/
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
