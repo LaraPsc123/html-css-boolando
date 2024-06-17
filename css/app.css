@@ -32,6 +32,7 @@ ol {
 .img {
     height: 300px;
     justify-content: flex-start;
+    border-radius: 10%;
 
 }
 
@@ -46,4 +47,12 @@ ol {
 
 .x {
     color: red;
+}
+
+.Levi,
+.y,
+.x {
+    display: flex;
+    flex-direction: column;
+
 }
