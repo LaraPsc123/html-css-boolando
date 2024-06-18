@@ -24,8 +24,8 @@ ol {
     margin-bottom: 5%;
 }
 
-/* intestazione*/
-.page-header {
+/* paragrafo*/
+.bottom-nav {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 2%;
@@ -36,15 +36,11 @@ ol {
     display: flex;
     flex-direction: column;
 
-    border: 1px solid gray;
 
 }
 
-/* image1*/
 
-.img {
-    height: 300px;
-}
+
 
 /* dimensione scritte*/
 .brand {
@@ -60,6 +56,33 @@ ol {
     color: red;
 }
 
-#maya {
-    height: 320px;
+img {
+    width: 280px;
+}
+
+.page-header {
+    background-color: rgb(230, 194, 17);
+    height: 50px;
+    padding: 10px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    color: white;
+
+}
+
+.logo {
+    width: 130px;
+}
+
+.hello {
+    color: white;
 }
